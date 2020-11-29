@@ -1,5 +1,5 @@
 .team {
-  background: var(--team-bg);
+  background: $team-bg;
 }
 
 .team-title {
@@ -7,7 +7,7 @@
   text-align: center;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  background-color: var(--white-cl);
+  background-color: $white-cl;
 }
 
 .title-name {
@@ -16,10 +16,9 @@
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  color: var(--title-cl);
+  color: $title-cl;
 }
 
 .profession {
   margin-bottom: 16px;
 }
-

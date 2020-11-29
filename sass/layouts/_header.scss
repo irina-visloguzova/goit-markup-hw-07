@@ -30,7 +30,7 @@
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  fill: var(--main-text-color);
+  fill: $main-text-color;
 }
 
 .header-icons-mail {
@@ -38,26 +38,26 @@
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  fill: var(--main-text-color);
+  fill: $main-text-color;
 }
 
 .link:hover .header-icons-mail,
 .link:focus .header-icons-mail {
-  fill: var(--accent-cl);
+  fill: $accent-cl;
 }
 
 .link:hover .header-icons-phone,
 .link:focus .header-icons-phone {
-  fill: var(--accent-cl);
+  fill: $accent-cl;
 }
 
 .link-menu {
-  color: var(--title-cl);
+  color: $title-cl;
 }
 
 .link-menu-contacts {
   align-items: center;
-  color: var(--main-text-color);
+  color: $main-text-color;
 }
 
 .link-mail {

@@ -13,7 +13,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  color: $main-text-color;
 }
 
 h1,
@@ -53,12 +53,12 @@ p {
 
 .link:hover,
 .link:focus {
-  color: var(--accent-cl);
+  color: $accent-cl;
 }
 
 .title {
   font-weight: 700;
-  color: var(--title-cl);
+  color: $title-cl;
 }
 
 .flexbox {

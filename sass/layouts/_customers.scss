@@ -19,7 +19,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover {
-    border: 1px solid var(--accent-cl);
+    border: 1px solid $accent-cl;
     border-radius: 4px;
   }
 }
@@ -27,12 +27,12 @@
 .customers-icons-svg {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  fill: var(--icons);
+  fill: $icons;
 }
 
 .customers-link:hover .customers-icons-svg,
 .customers-link:focus .customers-icons-svg {
-  fill: var(--accent-cl);
+  fill: $accent-cl;
 }
 
 .customers-icons-svg1 {

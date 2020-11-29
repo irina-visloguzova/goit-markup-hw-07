@@ -9,7 +9,7 @@
 
 .portfolio-item {
   width: 370px;
-  background: var(--white-cl);
+  background: $white-cl;
   flex-basis: calc((100% - 60px) / 3);
 
   &:not(:nth-child(3n)) {
@@ -39,7 +39,7 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--title-cl);
+  color: $title-cl;
 }
 
 .project-link {
@@ -72,7 +72,7 @@
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
-  color: var(--white-cl);
+  color: $white-cl;
   background-color: rgba(33, 150, 243, 0.9);
   z-index: 2;
   transform: translateY(100%);
@@ -83,5 +83,5 @@
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  color: $main-text-color;
 }

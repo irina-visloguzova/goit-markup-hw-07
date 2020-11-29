@@ -5,7 +5,7 @@
 }
 
 .current {
-  color: var(--accent-cl);
+  color: $accent-cl;
 
   &::after {
     position: absolute;
@@ -20,5 +20,5 @@
 }
 
 .link-menu.current {
-  color: var(--accent-cl);
+  color: $accent-cl;
 }

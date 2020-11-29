@@ -6,13 +6,13 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: var(--black-cl);
+  color: $black-cl;
   margin-right: 93px;
   padding-bottom: 25px;
 }
 
 .logo-web {
-  color: var(--accent-cl);
+  color: $accent-cl;
 }
 
 .logo-white {
@@ -23,5 +23,5 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: var(--white-cl);
+  color: $white-cl;
 }

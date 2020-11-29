@@ -19,17 +19,17 @@
 
   &:hover,
   &:focus {
-    background-color: var(--accent-cl);
+    background-color: $accent-cl;
   }
 }
 
 .social-icons-svg {
   width: 20px;
   height: 20px;
-  fill: var(--icons);
+  fill: $icons;
 }
 
 .social-icons-link:hover .social-icons-svg,
 .social-icons-link:focus .social-icons-svg {
-  fill: var(--white-cl);
+  fill: $white-cl;
 }
